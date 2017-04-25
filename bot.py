@@ -21,9 +21,9 @@ class cobotZulip():
     def send_message(self, content, type, to, subject):
         response = self.client.send_message({
             "type": type,
-            "to"	: to,
-            "subject"	: subject,
-            "content"	: content
+            "to": to,
+            "subject": subject,
+            "content": content
         })
         print response
 
